@@ -1,68 +1,136 @@
 body {
-  background-color: #0d0d0d;
-  color: #f5f5f5;
+  background-color: #0b0c0b; /* very dark greenish black */
+  color: #33ff33; /* classic terminal green */
   font-family: 'Courier New', Courier, monospace;
   margin: 0;
-  padding: 0;
+  padding: 2rem 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  user-select: none;
+  text-shadow: none; /* kill all glow */
 }
 
 .container {
-  max-width: 700px;
+  max-width: 720px;
   margin: auto;
-  padding: 2rem;
+  padding: 2rem 2.5rem;
+  background: #061006; /* subtle dark green background */
+  border: 1px solid #0f330f; /* dark green border */
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .title {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   text-align: center;
-  color: #ff0000;
-  margin-bottom: 0.25rem;
+  color: #33ff33;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #114411;
+  padding-bottom: 0.25rem;
+  animation: blinkCursor 1.2s steps(2, start) infinite;
+}
+
+/* Blinking underscore for that terminal cursor vibe */
+@keyframes blinkCursor {
+  0%, 50% { border-right: 2px solid #33ff33; }
+  50.01%, 100% { border-right: 2px solid transparent; }
 }
 
 .subtitle {
   text-align: center;
   font-style: italic;
-  color: #aaa;
+  color: #228822;
   margin-bottom: 2rem;
 }
 
 .packing-list {
-  margin-bottom: 2rem;
-  padding: 1.5rem;
-  border: 1px solid #ff0000;
-  background-color: rgba(255, 0, 0, 0.05);
+  margin-bottom: 3rem;
+  padding: 1.75rem 2rem;
+  border: 1px solid #114411;
+  background-color: #061006;
 }
 
 .packing-list h2 {
-  color: #ff0000;
+  color: #33ff33;
   font-size: 1.5rem;
   margin-bottom: 1rem;
+  border-bottom: 1px solid #114411;
+  padding-bottom: 0.25rem;
 }
 
 .packing-list ul {
-  list-style-type: square;
+  list-style-type: none;
   padding-left: 1.25rem;
-  color: #eee;
+  color: #33ff33;
+  font-weight: 600;
+  font-size: 0.95rem;
 }
 
 .packing-list li {
   margin-bottom: 0.5rem;
+  line-height: 1.3;
 }
 
 #itinerary h2 {
-  color: #00ffcc;
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
+  color: #33ff33;
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+  border-bottom: 1px solid #114411;
+  padding-bottom: 0.25rem;
 }
 
 #schedule ul {
   list-style: none;
   padding-left: 0;
+  font-size: 1rem;
 }
 
 #schedule li {
-  background: rgba(255, 255, 255, 0.05);
-  padding: 0.75rem;
-  margin-bottom: 0.5rem;
-  border-left: 4px solid #00ffcc;
+  background: #081208;
+  padding: 0.85rem 1.2rem;
+  margin-bottom: 0.65rem;
+  border-left: 5px solid #33ff33;
+  font-weight: 600;
+  cursor: default;
+  transition: background-color 0.15s ease;
+}
+
+#schedule li:hover {
+  background-color: #0f3d0f;
+}
+
+input[type="date"] {
+  display: block;
+  margin: 0 auto 2rem auto;
+  padding: 0.4rem 0.75rem;
+  font-size: 1rem;
+  border: 1.5px solid #33ff33;
+  border-radius: 0;
+  background-color: #061006;
+  color: #33ff33;
+  font-weight: 600;
+  outline: none;
+  caret-color: #33ff33;
+  font-family: 'Courier New', monospace;
+}
+
+input[type="date"]:focus {
+  border-color: #55ff55;
+  background-color: #081208;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b0c0b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #33ff33;
+  border-radius: 0;
 }
