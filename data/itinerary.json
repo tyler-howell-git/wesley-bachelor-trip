@@ -1,0 +1,27 @@
+{
+  "2025-08-15": [
+    { "time": "5:00 AM", "activity": "Be at Wesley’s house (445 Belmont Rd) — everyone but Graham" },
+    { "time": "5:00 – 6:30 AM", "activity": "Wesley packs, everyone hangs out, load up cars" },
+    { "time": "6:30 – 7:30 AM", "activity": "Breakfast at Waffle House (11636 U.S. 70, Arlington, TN) — stay in same cars" },
+    { "time": "11:30 AM – 12:15 PM", "activity": "Chick-fil-A stop in Meridian, MS (109 S. Frontage Rd) — switch cars" },
+    { "time": "12:15 PM", "activity": "Coordinate with Graham about arrival time" },
+    { "time": "3:30 – 4:00 PM", "activity": "Staggered arrival at Publix (no earlier than 3:30); Graham leaves his car there" },
+    { "time": "5:00 PM", "activity": "Grocery run: eggs, bacon, biscuits, butter, chips, cheese dip, salsa, chicken fries, bread, deli ham/turkey, cheese slices, ice" },
+    { "time": "4:00 – 5:30 PM", "activity": "Condo setup team (Tyler, Graham, Carson, Greg) prepares the space" },
+    { "time": "5:15 PM", "activity": "Wesley's car (Ethan, Wesley, Jacob, Nick) heads to condo — keep him distracted beforehand (Walmart, souvenir shop, etc.)" },
+    { "time": "5:30 PM", "activity": "Wesley’s car arrives; call Tyler for parking pass delivery" },
+    { "time": "Evening", "activity": "Pizza from Pizza Hut, beers, video games, paper airplanes" }
+  ],
+  "2025-08-16": [
+    { "time": "Morning", "activity": "Breakfast at condo" },
+    { "time": "Late Morning – Afternoon", "activity": "Beach time" },
+    { "time": "Afternoon", "activity": "Lunch at condo" },
+    { "time": "4:30 PM", "activity": "Showers + prep for dinner" },
+    { "time": "6:00 PM", "activity": "Toasts and pre-dinner drinks" },
+    { "time": "7:00 PM", "activity": "Dinner at The Hangout" }
+  ],
+  "2025-08-17": [
+    { "time": "Morning", "activity": "Clean house, pack up" },
+    { "time": "9:40 AM", "activity": "Final departure (hard out)" }
+  ]
+}
