@@ -10,8 +10,8 @@ async function loadItineraryForDate(dateKey) {
 
   if (itinerary) {
     container.innerHTML = `<ul>` +
-      itinerary.map(item => `<li><strong>${item.time}</strong>: ${item.activity}</li>`).join('') +
-      `</ul>`;
+        itinerary.map(item => `<li><strong>${item.time}</strong>: ${item.activity.replace(/\n/g, '<br>')}</li>`).join('') +
+        `</ul>`;
   } else {
     container.innerHTML = `<p>No mission briefing for that day. Standby for further instructions. 🕶️</p>`;
   }

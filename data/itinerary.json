@@ -1,27 +1,84 @@
 {
   "2025-08-01": [
-    { "time": "5:00 AM", "activity": "Be at Wesley’s house (445 Belmont Rd) — everyone but Graham" },
-    { "time": "5:00 – 6:30 AM", "activity": "Wesley packs, everyone hangs out, load up cars" },
-    { "time": "6:30 – 7:30 AM", "activity": "Breakfast at Waffle House (11636 U.S. 70, Arlington, TN) — stay in same cars" },
-    { "time": "11:30 AM – 12:15 PM", "activity": "Chick-fil-A stop in Meridian, MS (109 S. Frontage Rd) — switch cars" },
-    { "time": "12:15 PM", "activity": "Coordinate with Graham about arrival time" },
-    { "time": "3:30 – 4:00 PM", "activity": "Staggered arrival at Publix (no earlier than 3:30); Graham leaves his car there" },
-    { "time": "5:00 PM", "activity": "Grocery run: eggs, bacon, biscuits, butter, chips, cheese dip, salsa, chicken fries, bread, deli ham/turkey, cheese slices, ice" },
-    { "time": "4:00 – 5:30 PM", "activity": "Condo setup team (Tyler, Graham, Carson, Greg) prepares the space" },
-    { "time": "5:15 PM", "activity": "Wesley's car (Ethan, Wesley, Jacob, Nick) heads to condo — keep him distracted beforehand (Walmart, souvenir shop, etc.)" },
-    { "time": "5:30 PM", "activity": "Wesley’s car arrives; call Tyler for parking pass delivery" },
-    { "time": "Evening", "activity": "Pizza from Pizza Hut, beers, video games, paper airplanes" }
+    {
+      "time": "5:00 AM",
+      "activity": "Be at Wesley’s house at 5:00 am – everyone but Graham (445 Belmont Road)\nJacob takes Carson & Nick (coordinate on your own).\nEthan & Tyler drive separately."
+    },
+    {
+      "time": "5:00 – 6:30 AM",
+      "activity": "Wesley packs & everyone hangs out, load up cars.\nTyler’s car: Wesley, Carson, Greg\nJacob’s car: Ethan, Nick"
+    },
+    {
+      "time": "6:30 – 7:30 AM",
+      "activity": "Waffle House in Arlington by 7:00 (11636 U.S. 70, Arlington, TN)\nStay in same cars."
+    },
+    {
+      "time": "11:30 AM – 12:15 PM",
+      "activity": "Chickfila stop at Meridian, MS (109 S. Frontage Rd., Meridian, MS 39301)\nSWITCH CARS:\nTyler’s car: Wesley, Nick\nJacob’s car: Ethan, Carson, Greg"
+    },
+    {
+      "time": "Anytime",
+      "activity": "Communicate with Graham about arrival time changes."
+    },
+    {
+      "time": "3:30 – 4:00 PM",
+      "activity": "NO EARLIER than 3:30!! Every car arrives at Publix (Graham's, Jacob's, Tyler's)\nGraham leaves car there."
+    },
+    {
+      "time": "4:00 – 5:30 PM",
+      "activity": "Condo setup team (Tyler, Graham, Carson, Greg) prepares the space.\nAt Publix around 5:00, buy: eggs, bacon, biscuits, butter, chips, cheese dip, salsa, chicken fries, loaf of bread, Oscar Meyer deli ham, Oscar Meyer deli turkey, cheese slices, bag of ice.\nMichelob Ultra, Coke Zero, Jack Daniels – Tyler bringing from home."
+    },
+    {
+      "time": "5:15 PM",
+      "activity": "Wesley & car (Ethan, Wesley, Jacob, Nick) head to condo — keep Wesley busy before arrival.\nIdeas: Souvenir shop, Walmart, Dollar General..."
+    },
+    {
+      "time": "5:30 PM",
+      "activity": "Wesley’s car arrives.\nCall Tyler to bring down parking pass.\nOrder pizza from Pizza Hut."
+    },
+    {
+      "time": "Night",
+      "activity": "Pizza, beer, video games, paper airplanes."
+    },
+    {
+      "time": "Note",
+      "activity": "DON’T TELL WESLEY ANY OF THIS. ITINERARY IS A SECRET EVEN AFTER ARRIVAL."
+    }
   ],
   "2025-08-02": [
-    { "time": "Morning", "activity": "Breakfast at condo" },
-    { "time": "Late Morning – Afternoon", "activity": "Beach time" },
-    { "time": "Afternoon", "activity": "Lunch at condo" },
-    { "time": "4:30 PM", "activity": "Showers + prep for dinner" },
-    { "time": "6:00 PM", "activity": "Toasts and pre-dinner drinks" },
-    { "time": "7:00 PM", "activity": "Dinner at The Hangout" }
+    {
+      "time": "Morning",
+      "activity": "Eat breakfast."
+    },
+    {
+      "time": "Late Morning – Afternoon",
+      "activity": "Beach."
+    },
+    {
+      "time": "Afternoon",
+      "activity": "Lunch at condo."
+    },
+    {
+      "time": "4:30 PM",
+      "activity": "Up to condo to start getting ready for dinner with quick showers."
+    },
+    {
+      "time": "6:00 PM",
+      "activity": "Toasts with pre-dinner drinks."
+    },
+    {
+      "time": "7:00 PM",
+      "activity": "Dinner at The Hangout."
+    }
   ],
   "2025-08-03": [
-    { "time": "Morning", "activity": "Clean house, pack up" },
-    { "time": "9:40 AM", "activity": "Final departure (hard out)" }
+    {
+      "time": "Morning",
+      "activity": "Clean house."
+    },
+    {
+      "time": "9:40 AM",
+      "activity": "GET OUT BY 9:40!!"
+    }
   ]
 }
